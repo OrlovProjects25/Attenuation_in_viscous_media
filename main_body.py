@@ -61,3 +61,4 @@ out = out / np.max(np.abs(out)) * max_
 out1 = np.int16(out)
 
 display(Audio(out1, rate=sr))
+wavfile.write("Changed_White_Noise.wav", sr, out1)
