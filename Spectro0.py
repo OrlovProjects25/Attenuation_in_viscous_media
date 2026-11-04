@@ -1,5 +1,6 @@
+import librosa
 
-
+from main_body.py import y, sr
 
 def spectrogram(y, sr):
   S = librosa.stft(y)
