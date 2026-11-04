@@ -21,7 +21,7 @@ if (len(y.shape) > 1):
 max_ = np.max(np.abs(y))
 y_norm = y / np.max(np.abs(y))
 
-x = 200.0 #distance
+x = 5.0 #distance
 c = 1020
 Nu0 = 1000 #dynamic
 Volumer0 = 1500
