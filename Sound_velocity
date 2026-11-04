@@ -1,0 +1,3 @@
+
+
+plt.plot(freq[1:], vel, label="Sound velocity(t)")
