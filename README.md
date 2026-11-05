@@ -1,4 +1,4 @@
-Theme: Modeling attenuation in viscous media
+Theme: Modelling attenuation in viscous media
 
 Created by: Aleksandr Orlov
 
