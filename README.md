@@ -11,6 +11,7 @@ The original audio-file is "White_noise.wav"
 The changed one - "Changed_White_Noise.wav"
 
 The code that performs all the transformations is in "main_body.py". The medium used is high-viscosity Polydimethylsiloxane (PDMS / Silicone Fluid) with a nominal viscosity of 1,000,000 cSt
+
 Spectro0.py creates a spectrogram (Spectrogram_original.png) of the original audio-file.
 Spectro1.py creates a spectrogram (Spectrogram_changed.png) of the changed audio-file.
 Sound_velocity.py makes a plot (Plot_SVelocity(frequency).png) of how sound velocity changes with frequency.
