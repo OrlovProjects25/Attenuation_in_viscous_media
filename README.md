@@ -5,7 +5,7 @@ Created by: Aleksandr Orlov
 The project focuses on changing the original audio recording accounting for the medium through which and the distance which the sound of the recording has to travel before reaching the receiver.
 The sound is disassembled into harmonic functions using FFT, and each of them is then changed according to the dissipative wave equation. Then, it is reassembled into a new recording - therefore, becoming what will be caught by the receiver.
 
-The theory can be viewed in "Theory"
+The derivation of formula is in "Formula_derivation.pdf"
 
 The original audio-file is "White_noise.wav"
 The changed one - "Changed_White_Noise.wav"
