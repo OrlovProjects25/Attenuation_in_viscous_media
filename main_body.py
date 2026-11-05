@@ -39,9 +39,11 @@ spectrum = np.fft.rfft(y_new)
 ampl = 2/len(y_new) * np.abs(spectrum)
 freq = np.fft.rfftfreq(len(y_new), d=1/sr)
 
-
+#In accordance with the Maxwell model of viscoelasticity:
 Nu = Nu0 / (1 + (freq / f_rel_Nu) ** 2)
 Volumer = Volumer0 / (1 + (freq / f_rel_Vol) ** 2)
+
+
 gamma = (Nu + 4/3 * Volumer) / (2 * density)
 
 omega = 2 * np.pi * freq
